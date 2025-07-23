@@ -8,9 +8,6 @@ export class RegistroEmocional {
   @Column()
   cliente_id: number;
 
-  @Column()
-  pareja_id: number;
-
   @Column({ type: 'timestamp' })
   fecha_registro: Date;
 

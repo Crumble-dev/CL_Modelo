@@ -19,10 +19,6 @@ export class RegistroEmocionalService {
     return this.registroRepo.find({ where: { cliente_id: clienteId } });
   }
 
-  async findByPareja(parejaId: number) {
-    return this.registroRepo.find({ where: { pareja_id: parejaId } });
-  }
-
   prepararTextoParaAnalisis(texto: string) {
     return texto.trim();
   }
