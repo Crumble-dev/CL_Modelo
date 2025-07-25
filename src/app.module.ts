@@ -24,6 +24,7 @@ import { ModelModule } from './model/model.module'
         RegistroEmocional
       ],
       synchronize: true, // Solo para desarrollo
+      //dropSchema: true,
     }),
     ModelModule
   ],
